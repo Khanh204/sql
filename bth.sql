@@ -32,5 +32,9 @@ values ('071489664','1','1,000,000','50,000'),
 	   ('071483271','3','500,000','50,000')
 	   select * from CustomerAccount;
 	 insert into CustomerTransaction(transactionid,accountnumber,transactiondate,amount,depositorwithdraw)
-	 values ('1','071489664','17-2-2022','1','1');
-	 select * from CustomerTransaction;
+	 values ('1','071489664','2021/11/08 8AM','1','1'),
+	        ('2','071486173','2021/11/08 2AM','1','1'),
+			('3','071483271','2021/11/08 9PM','1','1');
+	select * from CustomerTransaction;
+	--4
+	select * from Customer where country = 'Ha Noi';
